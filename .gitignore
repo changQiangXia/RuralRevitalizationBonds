@@ -1,0 +1,32 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Project temporary/debug files
+# -----------------------------
+.tmp*
+*.tmp
+
+# -----------------------------
+# Crawler cache (keep structure, ignore contents)
+# -----------------------------
+.cache/**
+!.cache/
+!.cache/.gitkeep
+!.cache/sse_pdf/
+!.cache/sse_pdf/.gitkeep
+!.cache/szse_pdf/
+!.cache/szse_pdf/.gitkeep
+
+# Explicit PDF cache guard (for safety)
+.cache/**/*.pdf
+.cache/**/*.PDF
